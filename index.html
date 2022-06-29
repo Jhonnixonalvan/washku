@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Noto Serif' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>WASHkU</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__imgicon">
+                <div><img src="assets/images/washku-licoreria.png" alt=""></div>
+            </div>
+            <label for="menu_respons" class="icon_btn">
+                <img src="assets/icon/menu-icon.png" alt="">
+            </label>
+            <input type="checkbox" class="menu_respons" id="menu_respons">
+            <ul class="nav__lists">
+                <li>
+                    <a href="">Ofertas</a>
+                </li>
+                <li>
+                    <a href="">Licores</a>
+                    <img src="assets/icon/icon-abajo2.svg" alt="">
+                </li>
+                <li>
+                    <a href="">Vinos</a>
+                    <img src="assets/icon/icon-abajo2.svg" alt="">
+                </li>
+                <li>
+                    <a href="">Cervezas</a>
+                    <img src="assets/icon/icon-abajo2.svg" alt="">
+                </li>
+            </ul>
+            <div class="dropdown" id="dropdown">
+                <input class="search" type="search" placeholder="Buscar" id="Buscador"/>
+                <img class="search-icon" onclick="mostrar_buscador()" id="search_icon" src="assets/icon/buscador.svg" alt="search-icon">
+                <img src="assets/icon/buscador-icon3.png" alt="" class="search_icon2" onclick="mostrar_buscador()">
+            </div>
+            <section class="icon">
+                <div class="icon-person">
+                    <img src="assets/icon/icon-user.svg" alt="Ingresar">
+                    <a class="login" href="http://">Ingresar</a> 
+                </div>
+                <div class="line"></div>
+                <div class="icon-corazon">
+                    <img src="assets/icon/icon-corazon.svg" alt="">
+                    <div class="icon-circle">
+                        <a href="http://">4</a>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="icon-buy">
+                    <img src="assets/icon/icon-carrito.svg" alt="Comprar">
+                    <div class="icon-circle2">
+                        <a href="http://">4</a>
+                    </div>
+                    <p>(S/ 0)</p>
+                </div>
+            </section>
+            <section class="icon2">
+                <div class="icon-user">
+                    <img src="assets/icon/Vectorperson-icon.png" alt="">
+                </div>
+                <div class="icon-cora">
+                    <img class="corazon" src="assets/icon/Vectorcorazon-icon.png" alt="">
+                </div>
+                <div class="iccon-car">
+                    <img class="car" src="assets/icon/Vectorcomp3-icon.png" alt="">
+                </div>
+    
+        </nav>
+        </section>
+    </header>
+    <section class="ctn-search" id="ctn_search">
+        <div class="delete_conteiner">
+            <input type="checkbox" class="delete" id="delete">
+            <label for="delete" class="dlt" onclick="cerrar_buscador()">
+                <img class="delete_img" src="assets/icon/icon-cerrar.png" alt="">
+            </label>
+        </div>
+        <p class="p1">¿Qué estás buscando?</p>
+        <div class="dropdown2">
+            <input class="search2" type="search" placeholder="Buscar" id="Buscador"/>
+            <div class="search-icon3" id="search_icon3">
+                <img src="assets/icon/icon-buscador2.svg" alt="search-icon">
+            </div>
+        </div>
+        <div class="popular">
+            <p class="popularp1">Búsquedas populares:</p>
+            <p class="popularp2">Tequila</p>
+            <p class="popularp3">Ofertas</p>
+            <p class="popularp4">Ron</p>
+            <p class="popularp5">Cerveza</p>
+        </div>
+        <article class="search-cards">
+            <div class="search-card1">
+                <img class="search-img1" src="assets/images/categorias/4.aguardiente.png" alt="">
+                <p>Aguardiente</p>
+            </div>
+            <div class="search-card1">
+                <img class="search-img2" src="assets/images/categorias/1.cervesa.png" alt="">
+                <p>Cerveza</p>
+            </div>
+            <div class="search-card1">
+                <img class="search-img3" src="assets/images/categorias/8.cocteles.png" alt="">
+                <p>Coctelería</p>
+            </div>
+            <div class="search-card1">
+                <img class="search-img4" src="assets/images/mas-vendidos/3.buchannas.png" alt="">
+                <p>Ginebra</p>
+            </div>
+        </article>
+        <div class="p2"> <a href="http://">Ver todas las Categorías</a> </div>
+    </section>
+    <main class="main">
+        <article class="container-banner" id="container_banner">
+            <section class="slider" id="slider">
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/banner.png" alt="banner">
+                </div>
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/licors2.jpg" alt="banner">
+                </div>
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/licors3.png" alt="banner">
+                </div>
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/licors4.png" alt="banner">
+                </div>
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/licors6.jpg" alt="banner">
+                </div>
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/licors5.png" alt="banner">
+                </div>
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/licors7.jpg" alt="banner">
+                </div>
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/licors8.webp" alt="banner">
+                </div>
+                <div class="slider__images" id="slider__images">
+                    <img class="slider__img" src="assets/images/washku-licoreria.png" alt="banner">
+                </div>
+            </section>
+            <div class="banner__btn banner__btn--right" id="btn__right">&#62</div>
+            <div class="banner__btn banner__btn--left" id="btn__left">&#60</div>          
+        </article>
+        <article class="category">
+            <div class="category1">
+                <p>Nuestas categorías</p>
+            </div>
+            <div class="category2">
+                <p>Ver todas</p>
+            </div>
+            <section class="category__images">
+                <article class="cont">
+                    <div class="div1"></div>
+                    <img class="img1" src="assets/images/categorias/1.cervesa.png"alt="Cervezas">
+                    <p class="p1" >Cerveza</p> 
+                </article> 
+                <article class="cont">
+                    <div class="div2"></div>
+                    <img class="img2" src="assets/images/categorias/2.wisky.png"alt="Whisky">
+                    <p class="p1" >Whisky</p> 
+                </article> 
+                <article class="cont">
+                    <div class="div3"></div>
+                    <img class="img3" src="assets/images/categorias/3.ron.png"alt="Ron">
+                    <p class="p1" >Ron</p> 
+                </article> 
+                <article class="cont">
+                    <div class="div4"></div>
+                    <img class="img4" src="assets/images/categorias/4.aguardiente.png"alt="Aguardiente">
+                    <p class="p1" >Aguardiente</p> 
+                </article>
+                <article class="cont">
+                    <div class="div5"></div>
+                    <img class="img5" src="assets/images/categorias/5.vino.png"alt="Vino">
+                    <p class="p1" >Vino</p> 
+                </article>
+                <article class="cont">
+                    <div class="div6"></div>
+                    <img class="img6" src="assets/images/categorias/6.tequila.png"alt="Tequila">
+                    <p class="p1" >Tequila</p> 
+                </article>
+                <article class="cont">
+                    <div class="div7"></div>
+                    <img class="img7" src="assets/images/categorias/7.saborizados.png"alt="Saborizados">
+                    <p class="p1" >Saborizados</p> 
+                </article>
+                <article class="cont">
+                    <div class="div8"></div>
+                    <img class="img8" src="assets/images/categorias/8.cocteles.png"alt="cocteles">
+                    <p class="p1" >cocteles</p> 
+                </article>
+            </section>
+        </article>
+        <section class="promotion">
+                <div class="promo1">
+                    <p>Promociones</p>
+                    <div class="edge"></div>
+                </div>
+                <div class="promo2">
+                    <p>Ver todas</p>
+                </div>
+            <article class="newBlocke">
+                <div class=" newBlock--img1">
+                    <img src="assets/images/promociones/1.promo.png" alt="">
+                </div>
+                <dir class="newBlock--img1">
+                    <img src="assets/images/promociones/2.promo.png" alt="">
+                </dir>
+                <div class="newBlock--img1">
+                    <img src="assets/images/promociones/3.promo.png" alt="">
+                </div>
+            </article>
+        </section>
+        <section class="sold">
+            <div class="title1">
+                <p>Mas vendidas</p>
+                <div class="edge3"></div>
+            </div>
+            <div class="title2">
+                <p>Ver todas</p>
+            </div>
+            <section class="cards">
+                <article class="card1">
+                    <div class="card1__img">
+                            <img src="assets/images/mas-vendidos/1.buchannas.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorstar.png" alt="">
+                        </div>
+                    </div>
+                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
+                    <p class="soldp2">- 375ml</p>
+                    <div class="soldbuy">
+                        <p>$ 82.900</p>
+                        <div>
+                            <img src="assets/icon/VectorMAS.png" alt="">
+                        </div>
+                    </div>
+                </article>
+                <article class="card1">
+                    <div class="card1__img">
+                            <img class="imgvino" src="assets/images/mas-vendidos/2.buchannas.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorstar.png" alt="">
+                        </div>
+                    </div>
+                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
+                    <p class="soldp2">- 375ml</p>
+                    <div class="soldbuy">
+                        <p>$ 82.900</p>
+                        <div>
+                            <img src="assets/icon/VectorMAS.png" alt="">
+                        </div>
+                    </div>
+                </article>
+                <article class="card1">
+                    <div class="card1__img">
+                            <img class="imgcoctel" src="assets/images/mas-vendidos/3.buchannas.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="/assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorstar.png" alt="">
+                        </div>
+                    </div>
+                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
+                    <p class="soldp2">- 375ml</p>
+                    <div class="soldbuy">
+                        <p>$ 82.900</p>
+                        <div>
+                            <img src="assets/icon/VectorMAS.png" alt="">
+                        </div>
+                    </div>
+                </article>
+                <article class="card1">
+                    <div class="card1__img">
+                            <img src="assets/images/mas-vendidos/4.buchannas.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorstar.png" alt="">
+                        </div>
+                    </div>
+                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
+                    <p class="soldp2">- 375ml</p>
+                    <div class="soldbuy">
+                        <p>$ 82.900</p>
+                        <div>
+                            <img src="assets/icon/VectorMAS.png" alt="">
+                        </div>
+                    </div>
+                </article>
+                <article class="card1">
+                    <div class="card1__img">
+                            <img src="assets/images/mas-vendidos/5.Saborizados.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorvertor1.png" alt="">
+                        </div>
+                        <div>
+                            <img src="assets/icon/Vectorstar.png" alt="">
+                        </div>
+                    </div>
+                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
+                    <p class="soldp2">- 375ml</p>
+                    <div class="soldbuy">
+                        <p>$ 82.900</p>
+                        <div>
+                            <img src="assets/icon/VectorMAS.png" alt="">
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="marcas">
+            <div class="marcatxt1">
+                <p>Nuestas Marcas</p>
+                <div class="edge3"></div>
+            </div>
+            <div class="marcatxt2">
+                <p>Ver todas</p>
+            </div>
+            <article class="marcasimg">
+                <div class="marcasimg1">
+                    <img src="assets/images/marcas/1.abuelo.png" alt="">
+                </div>
+                <div class="marcasimg2">
+                    <img src="assets/images/marcas/2.herrerano.png" alt="">
+                </div>
+                <div class="marcasimg3">
+                    <img src="assets/images/marcas/3.cortez.png" alt="">
+                </div>
+                <div class="marcasimg4">
+                    <img src="assets/images/marcas/4.caballito.png" alt="">
+                </div>
+                <div class="marcasimg5">
+                    <img src="assets/images/marcas/5.platinium.png" alt="">
+                </div>
+                <div class="marcasimg6">
+                    <img src="assets/images/marcas/6.champion.png" alt="">
+                </div> 
+            </article>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
