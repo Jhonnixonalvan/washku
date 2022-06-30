@@ -1,4 +1,15 @@
 
+    // ---------Serach----------------------------------
+    function mostrar_buscador() {
+        document.getElementById("ctn_search").style.display= "block";
+        document.getElementById("ctn_search").style.position= "absolute";
+        document.getElementById("ctn_search").style.zIndex= "20";
+        document.getElementById("ctn_search").style.Transition = 'all 1000ms';
+       }
+       function  cerrar_buscador() {
+           document.getElementById("ctn_search").style.display= "none";
+       }
+    // -----slider-------
     window.onload = function(){
     const slider = document.querySelector("#slider");
     let slider__images = document.querySelectorAll(".slider__images");
@@ -44,14 +55,8 @@
         moverDerecha();
     }, 5000);
     }
-// ---------Serach----------------------------------
-function mostrar_buscador() {
- document.getElementById("ctn_search").style.display= "block";
- document.getElementById("ctn_search").style.position= "absolute";
- document.getElementById("ctn_search").style.zIndex= "20";
- document.getElementById("ctn_search").style.Transition = 'all 1000ms';
-}
-function  cerrar_buscador() {
-    document.getElementById("ctn_search").style.display= "none";
-}
+
+    // ---carrito----
+
+    
 
