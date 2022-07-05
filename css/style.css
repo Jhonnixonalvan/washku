@@ -1985,6 +1985,28 @@ main {
 
 
 
+
+ @media only screen and (max-width: 423px) {
+    .marcasimg1 img,
+    .marcasimg2 img,
+    .marcasimg3 img,
+    .marcasimg4 img,
+    .marcasimg5 img,
+    .marcasimg6 img {
+        width: 150px;
+        height: 150px;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
  @media only screen and (max-width: 406px) {
     p.direct {
         padding-top: 10px;
@@ -1995,6 +2017,24 @@ main {
  }
 
 
+
+
+
+
+
+
+
+ @media only screen and (max-width: 380px) {
+    .marcasimg1 img,
+    .marcasimg2 img,
+    .marcasimg3 img,
+    .marcasimg4 img,
+    .marcasimg5 img,
+    .marcasimg6 img {
+        width: 145px;
+        height: 150px;
+    }
+ }
 
 
 
@@ -2215,6 +2255,28 @@ main {
         height: 40px;
     }
  }
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 331px) {
+    .marcasimg1 img,
+    .marcasimg2 img,
+    .marcasimg3 img,
+    .marcasimg4 img,
+    .marcasimg5 img,
+    .marcasimg6 img {
+        width: 140px;
+        height: 140px;
+    }
+ }
+
+
+
 
 
 
