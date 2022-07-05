@@ -1948,9 +1948,51 @@ main {
     .marcatxt2 p {
         font-size: 15px;
     }
+
+    /* detalle del producto */
+    .direct {
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 17px;
+        height: 40px;
+    }
+    .let1 {
+        margin-right: 1px;
+    }
+    .let2 {
+        margin: 0 1px;
+    }
+    .let3 {
+        margin: 0 1px;
+    }
+    .dtl-p2 {
+        width: initial;
+    }
+    /* productos similares */
+    .title3 p {
+        margin-left: 10px;
+    }
+    .title3 .edge4 {
+        margin-left: 10px;
+    }
+
  }
 
 
+
+
+
+
+
+
+ @media only screen and (max-width: 393px) {
+    .direct {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+        height: 40px;
+    }
+ }
 
 
 
@@ -2119,6 +2161,40 @@ main {
         width: 150px;
         height: 150px;
     }
+         /* detalle del producto */
+         .direct {
+            padding-top: 10px;
+            padding-left: 10px;
+            font-size: 15px;
+            height: 40px;
+        }
+        .let1 {
+            margin-right: 1px;
+        }
+        .let2 {
+            margin: 0 1px;
+        }
+        .let3 {
+            margin: 0 1px;
+        }
+        .produ-image {
+            width: 300px;
+            height: 270px;
+        }
+        .dtl-p2 {
+            width: initial;
+        }
+        .dtl-p3 {
+            font-size: 35px;
+            text-align: center;
+        }
+        /* productos similares */
+        .title3 p {
+            margin-left: 10px;
+        }
+        .title3 .edge4 {
+            margin-left: 10px;
+        }
  }
 
 
@@ -2145,4 +2221,31 @@ main {
         width: 130px;
         height: 130px;
      }
+     /* detalle del producto */
+    .direct {
+        padding-top: 10px;
+        padding-left: 5px;
+        font-size: 13.5px;
+        height: 40px;
+    }
+    .let1 {
+        margin-right: 1px;
+    }
+    .let2 {
+        margin: 0 1px;
+    }
+    .let3 {
+        margin: 0 1px;
+    }
+
+    .dtl-p2 {
+        width: initial;
+    }
+    /* productos similares */
+    .title3 p {
+        margin-left: 10px;
+    }
+    .title3 .edge4 {
+        margin-left: 10px;
+    }
  }
