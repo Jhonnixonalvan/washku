@@ -1985,14 +1985,15 @@ main {
 
 
 
- @media only screen and (max-width: 393px) {
-    .direct {
+ @media only screen and (max-width: 406px) {
+    p.direct {
         padding-top: 10px;
-        padding-left: 10px;
+        padding-left: 5px;
         font-size: 15px;
         height: 40px;
     }
  }
+
 
 
 
@@ -2198,6 +2199,30 @@ main {
  }
 
 
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 351px) {
+    p.direct {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        height: 40px;
+    }
+ }
+
+
+
+
+
+
+
+
  @media only screen and (max-width: 320px) {
     .menu_respons:checked + .nav__lists {
         column-gap: 50px;
@@ -2222,10 +2247,10 @@ main {
         height: 130px;
      }
      /* detalle del producto */
-    .direct {
+    p.direct {
         padding-top: 10px;
         padding-left: 5px;
-        font-size: 13.5px;
+        font-size: 13px;
         height: 40px;
     }
     .let1 {
