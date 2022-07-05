@@ -1987,6 +1987,9 @@ main {
 
 
  @media only screen and (max-width: 428px) {
+     .direct {
+         font-size: 15px;
+     }
      .dtl-p3 {
          width: 100%;
          text-align: center;
@@ -2305,7 +2308,7 @@ main {
 
 
 
- @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 329px) {
     .menu_respons:checked + .nav__lists {
         column-gap: 50px;
         font-size: 18px;
