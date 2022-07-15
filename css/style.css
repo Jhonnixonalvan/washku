@@ -18,7 +18,8 @@ body {
 .header{
     width: 100%;
     height: 80px;
-    background-color: var(--color1);
+    background-color: var(--color3);
+    background-color: var(--color3);
 }
 
 .nav {
@@ -36,9 +37,7 @@ body {
     overflow: hidden;
 }
 .nav__imgicon  img{
-    width: 135px;
-    height: 135px;
-    margin-top: -27px;
+    margin-top: 10px;
 }
 .icon_btn,
 .menu_respons,
@@ -51,10 +50,12 @@ body {
     list-style: none;
 }
 .nav__lists a {
-    color: var(--color3);
+    color: var(--color1);
     text-decoration: none;
     font-family: "poppins";
     font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
 }
 .dropdown {
     width: 250px;
@@ -85,6 +86,84 @@ body {
 .icon {
     padding-left: 2%;
 }
+/* --mycart---- */
+.mycart {
+    background-color: #C4C4C4;
+    position: relative;
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 20;
+    overflow-y: scroll;
+    padding-top: 80px;
+    display: block;
+}
+.mycartItems {
+    background-color: #be4f1b;
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.cartclose {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.cartcloseimg {
+    width: 20px;
+}
+.cartimg1 {
+    width: 150px;
+}
+.carttitle1{
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+}
+.cartprice {
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.cartstock {
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+.cart__amount {
+    
+    display: flex;
+    font-size: 20px;
+    gap: 45%;
+    padding-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cart__amount-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.minus,
+.plus  {
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ce7618;
+    border: outset #4d382a;
+}
+.cart__amount-number {
+    padding: 0 10px;
+}
+.cart__amount img {
+    width: 23px;
+}
+
+
+
 /* ----dropdown2 */
 .ctn-search {
     display: none;
@@ -243,6 +322,7 @@ body {
     display: flex;
     column-gap: 5px;
     align-items: center;
+    color: var(--color1);
 }
 .icon-person,
 .icon-corazon,
@@ -251,13 +331,12 @@ body {
     gap: 15px;
 }
 .login {
-    color: var(--color3);
+    color: var(--color1);
     text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
 }
 .icon-circle,
 .icon-circle2 {
@@ -271,7 +350,7 @@ body {
 .icon-circle2 a {
     position: absolute;
     text-decoration: none;
-    color: var(--color4);
+    color: var(--color1);
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -281,7 +360,7 @@ body {
     top: 1px;
 }
 .icon-buy p {
-    color: var(--color3);
+    color: var(--color1);
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -293,7 +372,7 @@ body {
     height: 0px;
     left: 1113px;
     top: 22px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #000;
     transform: rotate(90deg);
 }
 .icon2 {
@@ -307,7 +386,7 @@ main {
 }
 .container-banner {
     width: 100%;
-    height: 550px;
+    height: 470px;
     position: relative;
     overflow: hidden;
 }
@@ -345,7 +424,8 @@ main {
 }
 .banner__btn:hover {
     background-color: #fb0707;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #000;
     opacity: 1;
 }
 .banner__btn--right {
@@ -357,6 +437,7 @@ main {
 
 
 /* categoria */
+
 .category {
     background: url(/assets/icon/Rectangle-664-colorfondo.png), url(/assets/icon/Rectangle\ 663fondo.png);
     background-size: contain;
@@ -490,7 +571,7 @@ main {
     height: 125px;
     left: 7%;
     bottom: 38%;
-}
+} 
 /* ------------------------------------------ */
 
 /* ------------promociones------------------- */
@@ -680,6 +761,7 @@ main {
     width: 19px;
     height: 19px;
     margin-top: 13px;
+    
 }
 /* -------------------------------------------- */
 
