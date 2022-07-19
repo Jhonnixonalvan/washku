@@ -78,8 +78,8 @@
         </nav>
         </section>
     </header>
-    <section class="mycart">
-        <!-- <section class="mycartItems">
+    <!-- <section class="mycart">
+        <section class="mycartItems">
             <div class="cartclose">
                 <img class="cartcloseimg" src="assets/icon/cerrar.png" alt="">
             </div>
@@ -98,9 +98,9 @@
                     </div>
                     <img class="cartIconElm" id="1" src="assets/icon/eliminar.png" alt="">
                 </div>
-            </div> -->
+            </div>
         </section>
-    </section>
+    </section> -->
     <section class="ctn-search" id="ctn_search">
         <div class="delete_conteiner">
             <input type="checkbox" class="delete" id="delete">
@@ -176,16 +176,79 @@
             <div class="banner__btn banner__btn--right" id="btn__right">&#62</div>
             <div class="banner__btn banner__btn--left" id="btn__left">&#60</div>          
         </article>
-        <article class="category">
-            <!-- <section>
-                <div class="category1">
-                    <img src="assets/images/categorias/1.cervesa.png" alt="">
+        <section class="options">
+            <div class="optionCard1">
+                <img src="assets/icon/Group1.png" alt="">
+                <div class="optionText">
+                    <h3>Recojo en tienda</h3>
+                    <p>Conoce tu tienda más cercana</p>
                 </div>
-                <dir class="category2">
-
-                </dir>
-            </section> -->
-            <div class="category1">
+            </div>
+            <div class="optionCard1">
+                <img src="assets/icon/question.png" alt="">
+                <div class="optionText">
+                    <h3>Como comprar</h3>
+                    <p>Si tienes una duda ingresa aquí</p>
+                </div>
+            </div>
+            <div class="optionCard1">
+                <img src="assets/icon/delivery.png" alt="">
+                <div class="optionText">
+                    <h3>Delivery</h3>
+                    <p>Conoce nuestros métodos de envío</p>
+                </div>
+            </div>
+            <div class="optionCard1">
+                <img src="assets/icon/payement.png" alt="">
+                <div class="optionText">
+                    <h3>Pagos seguros</h3>
+                    <p>Conoce nuestros métodos de pago</p>
+                </div>
+            </div>
+        </section>
+        <article class="category">
+            <article class=" cat category1">
+                <h2 class="carttitle1">Cervezas</h2>
+                <p class="catpar1">Desde S/ <span>40.00</span></p>
+                <div class="categoryimg">
+                    <img class="catimg" src="assets/images/categorias/1.cervesa.png" alt="">
+                </div>
+                <div class="cr1"></div>
+                <div class="cr2"></div>
+                <div class="cr3"></div>
+            </article>
+            <article class="cat category2">
+                <h2 class="carttitle1">Whisky</h2>
+                <p class="catpar1">Desde S/ <span class="catprice1">70.90</span></p>
+                <div>
+                    <img class="catimg1" src="assets/images/categorias/2.wisky.png" alt="">
+                </div>
+            </article>
+            <article class="cat category3">
+                <h2 class="carttitle1">Vino</h2>
+                <p class="catpar1">Desde S/ <span class="catprice1">24.80</span></p>
+                <div>
+                    <img class="catimg2" src="assets/images/categorias/5.vino.png" alt="">
+                </div>
+            </article>
+            <article class="cat category4">
+                <h2 class="carttitle1">Ron</h2>
+                <p class="catpar1">Desde S/ <span class="catprice1">40.00</span></p>
+                <div>
+                    <img class="catimg3" src="assets/images/categorias/3.ron.png" alt="">
+                </div>
+                <div class="cr4"></div>
+                <div class="cr5"></div>
+                <div class="cr6"></div>
+            </article>
+            <article class="cat category5">
+                <h2 class="carttitle1">Tequila</h2>
+                <p class="catpar1">Desde S/ <span class="catprice1">40.00</span></p>
+                <div>
+                    <img class="catimg4" src="assets/images/categorias/6.tequila.png" alt="">
+                </div>
+            </article>
+            <!-- <div class="category1">
                 <p>Nuestas categorías</p>
             </div>
             <div class="category2">
@@ -232,40 +295,19 @@
                     <img class="img8" src="assets/images/categorias/8.cocteles.png"alt="cocteles">
                     <p class="p1" >cocteles</p> 
                 </article>
-            </section>
+            </section> -->
         </article>
-        <section class="promotion">
-                <div class="promo1">
-                    <p>Promociones</p>
-                    <div class="edge"></div>
-                </div>
-                <div class="promo2">
-                    <p>Ver todas</p>
-                </div>
-            <article class="newBlocke">
-                <div class=" newBlock--img1">
-                    <img src="assets/images/promociones/1.promo.png" alt="">
-                </div>
-                <dir class="newBlock--img1">
-                    <img src="assets/images/promociones/2.promo.png" alt="">
-                </dir>
-                <div class="newBlock--img1">
-                    <img src="assets/images/promociones/3.promo.png" alt="">
-                </div>
-            </article>
-        </section>
         <section class="sold">
-            <div class="title1">
-                <p>Mas vendidas</p>
-                <div class="edge3"></div>
-            </div>
-            <div class="title2">
-                <p>Ver todas</p>
-            </div>
+            <p class="title1">Más vendidos</p>
+            <p class="title2">Ver todas</p>
             <section class="cards">
                 <article class="card1" id="1">
+                    <div class="card1Prom">
+                        <h3  class="desc">-<span>40</span>%</h3>
+                        <img class="cardHeart" src="assets/icon/fav_iconheart.png" alt="">
+                    </div>
                     <div class="card1__img">
-                            <img class="card1Img" id="imgs" src="assets/images/mas-vendidos/1.buchannas.png" alt="" onclick="window.location.href='productdetail1.html';" >
+                            <img class="card1Img" id="imgs" src="assets/images/mas vendidas/1botella_jack.png" alt="" onclick="window.location.href='productdetail1.html';" >
                     </div>
                     <div class="stars" onclick="window.location.href='productdetail1.html';">
                         <div>
@@ -284,18 +326,21 @@
                             <img src="assets/icon/Vectorstar.png" alt="">
                         </div>
                     </div>
-                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
-                    <p class="soldp2">- 375ml</p>
+                    <p class="soldp1">WHISKY JACK DANIELS OLD N°7 - Botella de 750ml</p>
                     <div class="soldbuy">
-                        <p class="soldbuyP1">$ <span>82.900</span></p>
-                        <div class="addToCart">
-                            <img src="assets/icon/VectorMAS.png" alt="">
-                        </div>
+                        <p class="soldp2">$ <span>70.90</span></p>
+                        <p class="soldbuyP1">$ <span>70.90</span></p>
+                    </div>
+                    <div class="addToCart">
+                        <a class="cartcard" href="">Añadir al carrito</a>
                     </div>
                 </article>
                 <article class="card1" id="2">
+                    <div class="card1Prom2">
+                        <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                    </div>
                     <div class="card1__img">
-                            <img class="imgvino" id="imgs" src="assets/images/mas-vendidos/2.buchannas.png" alt="" onclick="window.location.href='productdetail2.html';">
+                            <img class="cardimg2" id="imgs" src="assets/images/mas vendidas/2botella_medellin.png" alt="" onclick="window.location.href='productdetail2.html';">
                     </div>
                     <div class="stars" onclick="window.location.href='productdetail2.html';">
                         <div>
@@ -314,17 +359,20 @@
                             <img src="assets/icon/Vectorstar.png" alt="">
                         </div>
                     </div>
-                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
-                    <p class="soldp2">- 375ml</p>
+                    <p class="soldp1">WHISKY JACK DANIELS OLD N°7 - Botella de 750ml</p>
                     <div class="soldbuy">
-                        <p class="soldbuyP1">$ <span>82.900</span></p>
-                        <div class="addToCart">
-                            <img src="assets/icon/VectorMAS.png" alt="">
-                        </div>
+                        <p class="soldbuyP1">$ <span>70.90</span></p>
+                    </div>
+                    <div class="addToCart">
+                        <a class="cartcard" href="">Añadir al carrito</a>
+                    </div>
                 </article>
                 <article class="card1" id="3">
+                    <div class="card1Prom2">
+                        <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                    </div>
                     <div class="card1__img">
-                            <img class="imgcoctel" id="imgs" src="assets/images/mas-vendidos/3.buchannas.png" alt="" onclick="window.location.href='productdetail3.html';">
+                            <img class="cardimg3" id="imgs" src="assets/images/mas vendidas/3.corona.png" alt="" onclick="window.location.href='productdetail3.html';">
                     </div>
                     <div class="stars" onclick="window.location.href='productdetail3.html';">
                         <div>
@@ -343,17 +391,20 @@
                             <img src="assets/icon/Vectorstar.png" alt="">
                         </div>
                     </div>
-                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
-                    <p class="soldp2">- 375ml</p>
+                    <p class="soldp1">WHISKY JACK DANIELS OLD N°7 - Botella de 750ml</p>
                     <div class="soldbuy">
-                        <p class="soldbuyP1">$ <span>82.900</span></p>
-                        <div class="addToCart">
-                            <img src="assets/icon/VectorMAS.png" alt="">
-                        </div>
+                        <p class="soldbuyP1">$ <span>70.90</span></p>
+                    </div>
+                    <div class="addToCart">
+                        <a class="cartcard" href="">Añadir al carrito</a>
+                    </div>
                 </article>
                 <article class="card1" id="4">
+                    <div class="card1Prom2">
+                        <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                    </div>
                     <div class="card1__img">
-                            <img id="imgs" src="assets/images/mas-vendidos/4.buchannas.png" alt="" onclick="window.location.href='productdetail4.html';">
+                            <img class="cardimg4" src="assets/images/mas vendidas/4glrerothes.png" alt="" onclick="window.location.href='productdetail4.html';">
                     </div>
                     <div class="stars" onclick="window.location.href='productdetail4.html';">
                         <div>
@@ -372,17 +423,20 @@
                             <img src="assets/icon/Vectorstar.png" alt="">
                         </div>
                     </div>
-                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
-                    <p class="soldp2">- 375ml</p>
+                    <p class="soldp1">WHISKY JACK DANIELS OLD N°7 - Botella de 750ml</p>
                     <div class="soldbuy">
-                        <p class="soldbuyP1">$ <span>82.900</span></p>
-                        <div class="addToCart">
-                            <img src="assets/icon/VectorMAS.png" alt="">
-                        </div>
+                        <p class="soldbuyP1">$ <span>70.90</span></p>
+                    </div>
+                    <div class="addToCart">
+                        <a class="cartcard" href="">Añadir al carrito</a>
+                    </div>
                 </article>
                 <article class="card1" id="5">
+                    <div class="card1Prom2">
+                        <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                    </div>
                     <div class="card1__img">
-                            <img id="imgs" src="assets/images/mas-vendidos/5.Saborizados.png" alt="" onclick="window.location.href='productdetail5.html';">
+                            <img id="cardimg5" src="assets/images/mas vendidas/5alamos.png" alt="" onclick="window.location.href='productdetail5.html';">
                     </div>
                     <div class="stars" onclick="window.location.href='productdetail5.html';">
                         <div>
@@ -401,15 +455,35 @@
                             <img src="assets/icon/Vectorstar.png" alt="">
                         </div>
                     </div>
-                    <p class="soldp1">BUCHANANS 12 AÑOS</p>
-                    <p class="soldp2">- 375ml</p>
+                    <p class="soldp1">WHISKY JACK DANIELS OLD N°7 - Botella de 750ml</p>
                     <div class="soldbuy">
-                        <p class="soldbuyP1">$ <span>82.900</span></p>
-                        <div class="addToCart">
-                            <img src="assets/icon/VectorMAS.png" alt="">
-                        </div>
+                        <p class="soldbuyP1">$ <span>70.90</span></p>
+                    </div>
+                    <div class="addToCart">
+                        <a class="cartcard" href="">Añadir al carrito</a>
+                    </div>
                 </article>
             </section>
+        </section>
+        <section class="promotion">
+            <div class="promo1">
+                <p>Promociones</p>
+                <div class="edge"></div>
+            </div>
+            <div class="promo2">
+                <p>Ver todas</p>
+            </div>
+        <article class="newBlocke">
+            <div class=" newBlock--img1">
+                <img src="assets/images/promociones/1.promo.png" alt="">
+            </div>
+            <dir class="newBlock--img1">
+                <img src="assets/images/promociones/2.promo.png" alt="">
+            </dir>
+            <div class="newBlock--img1">
+                <img src="assets/images/promociones/3.promo.png" alt="">
+            </div>
+        </article>
         </section>
         <section class="marcas">
             <div class="marcatxt1">

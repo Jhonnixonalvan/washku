@@ -51,9 +51,9 @@
         moverIzquierda();
     });
     
-    setInterval(function(){
-        moverDerecha();
-    }, 5000);
+    // setInterval(function(){
+    //     moverDerecha();
+    // }, 5000);
     }
 
 
@@ -64,6 +64,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
     // ---carrito----
     let allcontainerCart = document.querySelector(".cards");
     let buyThings = [];
@@ -86,8 +112,9 @@
     }
 
     function deleteProduct(e) {
+        let elempar = querySelector("mycart");
         if(e.target.classList.contains("cartIconElm")) {
-            console.log(e.target.classList.contains("cartIconElm"));
+            elempar.removeChild("");
 
             // const deleteId = e.target.getAtribute("id")
             // buyThings = buyThings.filter(product =>product.id != deleteId )        
@@ -149,3 +176,4 @@
     function clearhtml() {
         containerBuyCart.innerHTML = "";
     }
+*/
