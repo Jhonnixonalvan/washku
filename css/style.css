@@ -37,9 +37,11 @@ body {
     width: 150px;  
     height: 80px;
     overflow: hidden;
+    padding-right: 10px;
 }
 .nav__imgicon  img{
-    margin-top: 10px;
+    width: 120px;
+    margin-top: 4px;
 }
 .icon_btn,
 .menu_respons,
@@ -86,83 +88,6 @@ body {
     right: 10px;
     top: 20%;
 }
-/* --mycart---- */
-/* .mycart {
-    background-color: #C4C4C4;
-    position: relative;
-    position: fixed;
-    width: 40%;
-    height: 100%;
-    right: 0;
-    top: 0;
-    z-index: 20;
-    overflow-y: scroll;
-    padding-top: 80px;
-    display: none;
-}
-.mycartItems {
-    background-color: #be4f1b;
-    display: flex;
-    gap: 20px;
-    padding-left: 30px;
-    margin-bottom: 15px;
-}
-.cartclose {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-}
-.cartcloseimg {
-    width: 20px;
-}
-.cartimg1 {
-    width: 150px;
-}
-.carttitle1{
-    font-size: 1.8rem;
-    padding-bottom: 10px;
-}
-.cartprice {
-    font-size: 1.5rem;
-    padding-top: 10px;
-}
-.cartstock {
-    font-size: 1rem;
-    padding-bottom: 15px;
-}
-.cart__amount {
-    
-    display: flex;
-    font-size: 20px;
-    gap: 45%;
-    padding-top: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.cart__amount-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.minus,
-.plus  {
-    width: 25px;
-    height: 25px;
-    font-size: 25px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ce7618;
-    border: outset #4d382a;
-}
-.cart__amount-number {
-    padding: 0 10px;
-}
-.cart__amount img {
-    width: 23px;
-} */
-
-
 
 /* ----dropdown2 */
 .ctn-search {
@@ -386,12 +311,11 @@ main {
 }
 .container-banner {
     width: 100%;
-    height: 470px;
+    height: 428px;
     position: relative;
     overflow: hidden;
 }
 .slider {
-    background-color: #9d6e42;
     width: 900%;
     height: 100%;
     display: flex;
@@ -444,7 +368,11 @@ main {
     justify-content: space-between;
     padding-top: 60px;
     padding-bottom: 50px;
-}  
+    overflow-x: scroll;
+}
+.options::-webkit-scrollbar {
+    display: none;
+}
 .optionCard1 {
     background-color: #ffffff;
     display: flex;
@@ -509,16 +437,17 @@ main {
 .category5 {
     background-color: #d0f0fb;
 }
- .catimg {
+.catimg {
     position: absolute;
     width: 441px;
+    width:110%;
     left: 70px;
     top: 100px;
     z-index: 20;
 }
 .cr1 {
     width: 587px;
-    height: 587px;
+    height: 130vh;
     border: 4px solid #FFCCCC;
     border-radius: 50%;
     position: absolute;
@@ -901,39 +830,36 @@ main {
     position: relative;
     background-color: var(--color3);
     padding-top: 30px;
-    overflow-x: scroll;
+    width: 95%;
+    margin: 0 auto;
 }
-.promo1  {
-    width: 300px;
-}
-.promo1 p {
-    width: 200px;
+.promo1 {
+    width: 245px;
     height: 36px;
     color: #3D200B;
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    margin-left: 50px;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 30px;
+   
 }
-.promo1 .edge {
-    width: 148px;
-    height: 3px;
-    background-color: #3d200b;
-    margin-left: 50px;
-}
-.promo2 {
-    color: #9d6e42;
-    width: 94px;
-    height: 30px;
-    font-weight: 700;
-    font-size: 20px;
+.promo2{
+    color: #10039f;
+    background-color: #e7e5fa;
+    width: 130px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;  
+    position: absolute;
+    right: 0;
+    top: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: auto;
     display: flex;
     align-items: center;
-    letter-spacing: -0.01em;
-    text-decoration-line: underline;
-    position: absolute;
-    right: 50px;
-    top: 40px;
+    justify-content: center;
 }
 
 /* ---------------------- */
@@ -941,7 +867,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-top: 20px;
+    padding-top: 50px;
 
 }
 .newBlock--img1 > img{
@@ -949,55 +875,311 @@ main {
     height: 320px;
     /* height: ; */
 }
+
 /* ------------------------------------- */
 
+/* ------whisky */
+.whisky {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.whiskytitle1 {
+    width: 245px;
+    height: 36px;
+    color: #3D200B;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+}
+.wiskyCards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.whiskyCard1 {
+    width: 410px;
+    height: 463px;
+    background-image: url(/assets/images/whisky/Rectangle831.png);
+    border-radius: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: inset -5px -170px 170px;
+    margin-right: 40px;
+}
+.whiskyCard2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding-right: 10px;
+    overflow-x: scroll;
+}
+.whiskyCard1_tittle {
+    font-weight: 600;
+    font-size: 34px;
+    color: #ffffff;
+    margin-top: 280px;
+}
+.whiskypar {
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.whiskyAhref {
+    width: 200px;
+    background: #FFFFFF;
+    color: #10039f;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 30px;
+}
+
+/* ------ron----------- */
+.ron {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.rontitle1 {
+    width: 245px;
+    height: 36px;
+    color: #3D200B;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+}
+.ronCards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.ronCard1 {
+    width: 410px;
+    height: 463px;
+    background-image: url(/assets/images/ron/ficha.png);
+    border-radius: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: inset -5px -170px 170px;
+    margin-left: 40px;
+}
+.ronCard2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding-right: 10px;
+    overflow-x: scroll;
+}
+.ronCard1_tittle {
+    font-weight: 600;
+    font-size: 34px;
+    color: #ffffff;
+    margin-top: 280px;
+}
+.ronpar {
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.ronAhref {
+    width: 200px;
+    background: #FFFFFF;
+    color: #10039f;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 30px;
+}
+
+
+/* ------ vinos  */
+.vinos {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.vinostitle1 {
+    width: 245px;
+    height: 36px;
+    color: #3D200B;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+}
+.vinosCards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.vinosCard1 {
+    width: 410px;
+    height: 463px;
+    background-image: url(/assets/images/vinos/1chicha.png);
+    border-radius: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: inset -5px -150px 150px;
+    margin-right: 40px;
+}
+.vinosCard2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding-right: 5px;
+    overflow-x: scroll;
+}
+.vinosCard1_tittle {
+    font-weight: 600;
+    font-size: 34px;
+    color: #ffffff;
+    margin-top: 280px;
+}
+.vinospar {
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.vinosAhref {
+    width: 200px;
+    background: #FFFFFF;
+    color: #10039f;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 30px;
+}
+
+/* ------cerveza----------- */
+.cerveza {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.cervezatitle1 {
+    width: 245px;
+    height: 36px;
+    color: #3D200B;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+}
+.cervezaCards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.cervezaCard1 {
+    width: 410px;
+    height: 463px;
+    background-image: url(/assets/images/cerveza/4ficha.png);
+    border-radius: 20px;
+    object-fit: fill;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: inset -5px -120px 120px;
+    margin-left: 40px;
+}
+.cervezaCard2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-right: 5px;
+    overflow-x: scroll;
+}
+.cervezaCard1_tittle {
+    font-weight: 600;
+    font-size: 34px;
+    color: #ffffff;
+    margin-top: 280px;
+}
+.cervezapar {
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.cervezaAhref {
+    width: 200px;
+    background: #FFFFFF;
+    color: #10039f;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 30px;
+}
 
 /*-----------Marcas-----------------------------*/
 .marcas {
-    height: 550px;
+    width: 95%;
     position: relative;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
 .marcatxt1 {
     padding-top: 13px;
 }
-.marcatxt1 p {
-    width: 200px;
+.marcastitle1 {
+    width: 300px;
     height: 36px;
     color: #3D200B;
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 900;
+    font-size: 36px;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
-.marcatxt1 div {
-    width: 180px;
-    height: 3px;
-    background-color: #3d200b;
-    margin-left: 50px;
-}
-.marcatxt2 {
-    color: #9d6e42;
-    width: 94px;
-    height: 30px;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    text-decoration-line: underline;
+.marcastitle2{
+    color: #10039f;
+    background-color: #e7e5fa;
+    width: 130px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;  
     position: absolute;
-    top: 50px;
-    right: 50px;
+    right: 0;
+    top: 130px;
+    border-radius: 20px;
+    text-align: center;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .marcasimg {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 0px auto ;
-    margin-top: 70px;
-    gap: 50px;
+    margin: 0px auto;
+    margin-top: 100px;
+    gap: 30px;
 }
 
 .marcasimg img {
@@ -1028,6 +1210,9 @@ main {
     width: 170px;
     height: 170px;
 }
+
+
+
 /* ---------------------------------- */
 /* -------- detalle del producto----- */
 /* ---------------------------------- */
@@ -1238,7 +1423,12 @@ main {
 
 
 
-
+/* --------fooooteer -------*/
+footer {
+    background-color: #0e040d ;
+    width: 100%;
+    height: 500px;
+}
 
 
 
@@ -1267,7 +1457,7 @@ main {
        gap: 2%;
    }
    .nav__imgicon {
-    width: 50px;  
+    width: 13%;  
     height: 80px;
     overflow: hidden;
     top: 0%;
@@ -1293,21 +1483,24 @@ main {
    }
    .icon2 {
        display: flex;
-       gap: 40px;
        margin: auto;
+       gap: 30px;
+       padding-right: 10px;
+       /* width: 35px;
+       height: 35px; */
+   }
+   .user {
+       width: 33px;
    }
    .corazon {
-       width: 36px;
+       width: 33px;
    }
    .car {
-       width: 31px;
+       width: 33px;
    }
 
 /* ------------bannner------------- */
-   .container-banner {
-       width: 100%;
-       height: 450px;
-   }
+
 /* ----------Promociones------- */
     /* .newBlocke {
         background-color: #10039f;
@@ -1355,7 +1548,6 @@ main {
     .header{
         width: 100%;
         height: 80px;
-        background-color: var(--color1);
         display: flex;
         overflow: hidden;
     }
@@ -1371,15 +1563,26 @@ main {
     .search-cards {
         gap: 50px;
     } 
+    /* ----------options---------*/
+    .options {
+        gap: 20px;
+    }
+    .options::-webkit-scrollbar {
+        display: none;
+    }
+
  /*---------- promociones */
     .promotion {
         width: 100%;
         margin-right: auto;
         margin-left: auto;
     }
-    .promo2 p {
-        left: 850px;
-        top: 50px;  
+    .promo1 {
+        margin-left: 25px;
+    }
+    .promo2 {
+        right: 25px;
+        top: 65px;  
         font-size: 18px;
     }
     .newBlocke {
@@ -1403,11 +1606,13 @@ main {
     .sold {
         width: 100%;
         margin-right: auto;
-        margin-left: auto;
-        left: 0;
     }
-    .title2 p {
-        left: 850px;
+    .title1 {
+        margin-left: 25px;
+    }
+    .title2 {
+        right: 25px;
+        top: 60px;
         font-size: 18px;
     }
     .cards {
@@ -1430,6 +1635,9 @@ main {
         width: 250px;
     }
 /* ----------Marcas--- */
+.marcastitle2 {
+    right: 25px;
+}
  }
 
 /* ------------------------------------------------------ */
@@ -1477,12 +1685,13 @@ main {
         width: 100%;
     }
     .nav__imgicon {
-        width: 40%;
-        margin-left: auto;
-        margin-right: auto;        
+        width: 130px;
+        margin: auto auto;       
     }
     .nav__imgicon img{
-        width: 100%;        
+        position: relative;
+        width: 130px;  
+        top: -3px;
     }
     .icon2 {
         position: absolute;
@@ -1506,6 +1715,9 @@ main {
     }
     .nav__lists {
         display: none;
+    }
+    .nav__lists li a{
+        color: white;
     }
     .header {
         z-index: 0;
@@ -1532,10 +1744,10 @@ main {
         display: none;
     }
     .dropdown {  /* bloque de icono del buscador*/
-        width: 31px;
+        width: 37px;
         position: absolute;
         left: 110px;
-        top: 22px;
+        top: 19px;
     }
     .search_icon2 {  /*img del buscador1 en el header*/
         display: block;
@@ -1575,7 +1787,142 @@ main {
     .marcasimg div{
         margin-bottom: -20px;
  }
- }
+/*----- categoria */
+.catimg {
+    width: 400px;
+    left: 10px;
+    top: 120px;
+}
+.cr1 {
+    width: 587px;
+    height: 130vh;
+    right: 10%;
+    top: 41%;
+}
+.cr2 {
+    width: 395px;
+    height: 395px;
+    right: 35%;
+    top: 62%;
+}
+.cr3 {
+    width: 255px;
+    height: 255px;
+    right: 52%;
+    top: 77%;
+}
+.catimg1 {
+    width: 190px;
+    top: 0;
+    bottom: 0;
+    left: 48%;
+}
+.catimg2 {
+    width: 260px;
+    top: 5px;
+    bottom: 0;
+    left: 40%;
+}
+.catimg3 {
+    width: 300px;
+    top: 10px;
+    left: 32%;
+}
+.cr4 {
+    width: 550px;
+    height: 550px;
+    left: 30%;
+    top: 0;
+}
+.cr5 {
+    width: 400px;
+    height: 400px;
+    left: 53%;
+    top: 33%;
+}
+.cr6 {
+    width: 255px;
+    height: 255px;
+    left: 70%;
+    top: 63%;
+}
+.catimg4 {
+    width: 260px;
+    top: 5px;
+    left: 40%;
+}
+/* -----whisky---- */
+.whiskyCard1 {
+    width: 600px;
+    height: 463px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: inset -5px -170px 170px;
+    margin-right: 30px;
+}
+.whiskyCard2 {
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+    overflow-x: scroll;
+}
+/* ----Ron----- */
+.ronCard1 {
+    width: 600px;
+    height: 463px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: inset -5px -170px 170px;
+    margin-left: 30px;
+}
+.ronCard2 {
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+    overflow-x: scroll;
+}
+/*------- vinos---- */
+.vinosCard1 {
+    width: 600px;
+    height: 463px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: inset -5px -170px 170px;
+    margin-right: 30px;
+}
+.vinosCard2 {
+    justify-content:flex-start;
+    gap: 10px;
+    overflow-x: scroll;
+}
+/* ----Ron----- */
+.cervezaCard1 {
+    width: 600px;
+    height: 463px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: contain;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: inset -5px -170px 170px;
+    margin-left: 30px;
+}
+.cervezaCard2 {
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+    overflow-x: scroll;
+}
+}
 
 
 
@@ -1610,13 +1957,11 @@ main {
         margin: 0 12px;
     }
     .producto {
-        /* background-color: yellowgreen; */
         width: 100%;
         height: initial;
         padding: 30px 0;
     }
     .produ-image {
-        /* background-color: #10039f; */
         width: 500px;
         height: 450px;
         display: flex;
@@ -1624,12 +1969,10 @@ main {
         justify-content: center;
     }
     .produ-img {
-        /* background-color: yellow; */
         width: 370px;
         height: 350px;
     }
     .detail {
-        /* background-color: var(--color6); */
         width: 450px;
         height: initial;
     }
@@ -1754,6 +2097,89 @@ main {
         font-size: 14px;
         line-height: 150%;
     }
+    /*----- categoria */
+
+    .category{
+        position: initial;
+        background-color: var(--color6);
+        grid-template-columns: initial;
+        grid-template-rows: initial;
+        display: flex;
+        
+        /* overflow-x: scroll; */
+    }
+    .category1,
+    .category2,
+    .category3,
+    .category4,
+    .category5 {
+        /* background-color: #663E19; */
+        width: 500px;
+        height: 267px;
+    }
+    .catimg {
+        width: 170px;
+        left: 54%;
+        top: 50px;
+    }
+    .cr1 {
+        width: 587px;
+        height: 130vh;
+        right: 10%;
+        top: 41%;
+    }
+    .cr2 {
+        width: 395px;
+        height: 395px;
+        right: 35%;
+        top: 62%;
+    }
+    .cr3 {
+        width: 255px;
+        height: 255px;
+        right: 52%;
+        top: 77%;
+    }
+    .catimg1 {
+        width: 190px;
+        top: 0;
+        bottom: 0;
+        left: 48%;
+    }
+    .catimg2 {
+        width: 260px;
+        top: 5px;
+        bottom: 0;
+        left: 40%;
+    }
+    .catimg3 {
+        width: 300px;
+        top: 10px;
+        left: 32%;
+    }
+    .cr4 {
+        width: 550px;
+        height: 550px;
+        left: 30%;
+        top: 0;
+    }
+    .cr5 {
+        width: 400px;
+        height: 400px;
+        left: 53%;
+        top: 33%;
+    }
+    .cr6 {
+        width: 255px;
+        height: 255px;
+        left: 70%;
+        top: 63%;
+    }
+    .catimg4 {
+        width: 260px;
+        top: 5px;
+        left: 40%;
+    }
  }
 
 
@@ -1784,13 +2210,11 @@ main {
     }
 /* ----detalle de producto */
     .producto {
-        /* background-color: yellowgreen; */
         width: 100%;
         height: initial;
         padding: 30px 0;
     }
     .produ-image {
-        /* background-color: #10039f; */
         width: 350px;
         height: 450px;
         display: flex;
@@ -1798,7 +2222,6 @@ main {
         justify-content: center;
     }
     .produ-img {
-        /* background-color: yellow; */
         width: 320px;
         height: 300px;
     }
@@ -1816,6 +2239,31 @@ main {
     /* .shop {
         background-color: #fb0707;
     } */
+
+/* ------------header */
+    .icon_btn{
+        width: 30px;
+    }
+    .nav__imgicon img {
+        width: 100px;
+        top: 5px;
+    }
+    .icon2 {
+        gap: 30px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .user,
+    .corazon,
+    .car {
+        width: 30px;
+    } 
+    .dropdown {  /* bloque de icono del buscador*/
+        width: 30px;
+        position: absolute;
+        left: 110px;
+        top: 23px;
+    }
     /* ------detalle------- */
     .direct {
         width: 100%;
@@ -1988,6 +2436,26 @@ main {
         font-size: 14px;
         line-height: 150%;
     }
+    /* ----whisky---- */
+    .whiskyCard1 {
+        width: 1000px;
+        margin-right: 40px;
+    }
+    /* -----Ron--- */
+    .ronCard1 {
+        width: 1000px;
+        margin-left: 50px;
+    }
+    /* ----Vinos--- */
+    .vinosCard1 {
+        width: 1000px;
+        margin-right: 40px;
+    }
+    /* -----Cervezas--- */
+    .cervezaCard1 {
+        width: 1000px;
+        margin-left: 45px;
+    }
 
  }
 
@@ -2015,7 +2483,9 @@ main {
         padding-left: 20px;
         padding-top: 150px;
     }
-
+    .nav__imgicon img {
+        top: -4px;
+    }
     /* usuarios */
     .line {
         display: none;
@@ -2056,7 +2526,7 @@ main {
         left: 3%;
     }
     .dropdown {  /* bloque de icono del buscador*/
-        width: 26px;
+        width: 30px;
         left: 91%;
         top: 16px;
     }
@@ -2159,57 +2629,103 @@ main {
      .category__images {
          padding-top: 30px;
      }
-/* -------Promociones------ */
-
-     .promo1 p,
-     .title1 p,
-     .marcatxt1 p {
-        font-size: 20px;
-        margin-left: 10px;
+/* -------Whisky--------- */
+     .wiskyCards {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
      }
-     .promo1 .edge {
-         width: 41%;
-         margin-left: 10px;
+     .whiskyCard1 {
+         background-color: #10039f;
+         width: 410px;
+         margin: 0 auto;
      }
-     .promo2{
-        width: 65px;
-        right: 10px;
+     .whiskyCard2 {
+         gap: 20px;
+         padding-top: 50px;
      }
-     .promo2 p{
-         position: relative;
-         top: 0;
-         left: 0;
-         font-size: 15px;
-         width: 70px;
-     }
-/* ------mas vendidas----- */
-     .title1 .edge3 {
-        width: 24%;
-        margin-left: 10px;
+/* -------Ron--------- */
+    .ronCards {
+        position: relative;
+        display: block;
     }
-    .title2 {
-        width: 66px;
-        font-size: 15px;
+    .ronCard1 {
         position: absolute;
-        top: 13px;
-        right: 10px;
+        background-color: #10039f;
+        top: 40px;
+        width: 410px;
+        /* background-size: 300px; */
     }
-    .title2 p {
-        font-size: 15px;
+    .ronCard2 {
+        gap: 20px;
+        padding-top: 500px;
+}
+/* -------Vinos--------- */
+.vinosCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.vinosCard1 {
+    background-color: #10039f;
+    width: 410px;
+    margin: 0 auto;
+}
+.vinosCard2 {
+    gap: 20px;
+    padding-top: 50px;
+}
+/* -------Cerveza--------- */
+.cervezaCards {
+    position: relative;
+    display: block;
+}
+.cervezaCard1 {
+    position: absolute;
+    background-color: #10039f;
+    top: 40px;
+    width: 410px;
+    /* background-size: 300px; */
+}
+.cervezaCard2 {
+    gap: 20px;
+    padding-top: 500px;
+}
+/* -------Promociones------ */
+.promo1 {
+    font-size: 40px;
+}
+.promo2 {
+    font-size: 17px;
+    top: 70px;
+    width: 110px;
+    height: 35px;
+}
+/* ------mas vendidas----- */
+.title1 {
+    font-size: 50px;
+}
+.title2 {
+    font-size: 17px;
+    top: 65px;
+    width: 110px;
+    height: 35px;
+}
+/*------ Marcas ------ */
+    .marcas {
+        padding-top: 20px;
     }
-/*------  */
-    .marcatxt1 .edge3 {
-        width: 27%;
-        margin-left: 10px;
+    .marcastitle1 {
+        font-size: 30px;
     }
-    .marcatxt2 {
-        width: 65px;
-        right: 10px;
+    .marcastitle2 {
+        font-size: 17px;
+        top: 55px;
+        width: 110px;
+        height: 35px;
     }
-    .marcatxt2 p {
-        font-size: 15px;
-    }
-
     /* detalle del producto */
     .direct {
         padding-top: 10px;

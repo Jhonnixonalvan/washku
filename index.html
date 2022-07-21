@@ -15,10 +15,10 @@
     <header class="header">
         <nav class="nav">
             <div class="nav__imgicon">
-                <div><img src="assets/images/logo_washku.png" alt=""></div>
+                <img src="assets/images/logo_washku.png" alt="">
             </div>
             <label for="menu_respons" class="icon_btn">
-                <img src="assets/icon/new-menu1.png" alt="">
+                <img src="assets/icon/menu-icon.png" alt="">
             </label>
             <input type="checkbox" class="menu_respons" id="menu_respons">
             <ul class="nav__lists">
@@ -41,7 +41,7 @@
             <div class="dropdown" id="dropdown">
                 <input class="search" type="search" placeholder="Buscar" id="Buscador"/>
                 <img class="search-icon" onclick="mostrar_buscador()" id="search_icon" src="assets/icon/buscador.svg" alt="search-icon">
-                <img src="assets/icon/new-busq4.svg" alt="" class="search_icon2" onclick="mostrar_buscador()">
+                <img src="assets/icon/search2.png" alt="" class="search_icon2" onclick="mostrar_buscador()">
             </div>
             <section class="icon">
                 <div class="icon-person">
@@ -65,42 +65,13 @@
                 </div>
             </section>
             <section class="icon2">
-                <div class="icon-user">
-                    <img src="assets/icon/Vectorperson-icon.png" alt="">
-                </div>
-                <div class="icon-cora">
-                    <img class="corazon" src="assets/icon/Vectorcorazon-icon.png" alt="">
-                </div>
-                <div class="iccon-car">
-                    <img class="car" src="assets/icon/Vectorcomp3-icon.png" alt="">
-                </div>
-    
+                    <img class="user" src="assets/icon/Vector-user.png" alt="">
+                    <img class="corazon" src="assets/icon/Vector-heart.png" alt="">
+                    <img class="car" src="assets/icon/Vector-cart.png" alt="">
+            </section>
         </nav>
         </section>
     </header>
-    <!-- <section class="mycart">
-        <section class="mycartItems">
-            <div class="cartclose">
-                <img class="cartcloseimg" src="assets/icon/cerrar.png" alt="">
-            </div>
-            <div class="mycarcontimg">
-                <img class="cartimg1" src="assets/images/mas-vendidos/1.buchannas.png" alt="">
-            </div>
-            <div class="cartdetails">
-                <h4 class="carttitle1">nombre del producto</h4>
-                <h5 class="cartprice">$ <span>45.5</span> <h5>
-                <h6 class="cartstock">amount: 50</h6>
-                <div class="cart__amount">
-                    <div class="cart__amount-content">
-                      <span class="cart__amount-box minus"data-id="2">-</span>                
-                      <span class="cart__amount-number">1units</span>
-                      <span class="cart__amount-box plus"data-id="2">+</span>
-                    </div>
-                    <img class="cartIconElm" id="1" src="assets/icon/eliminar.png" alt="">
-                </div>
-            </div>
-        </section>
-    </section> -->
     <section class="ctn-search" id="ctn_search">
         <div class="delete_conteiner">
             <input type="checkbox" class="delete" id="delete">
@@ -207,12 +178,10 @@
             </div>
         </section>
         <article class="category">
-            <article class=" cat category1">
+            <article class="cat category1">
                 <h2 class="carttitle1">Cervezas</h2>
-                <p class="catpar1">Desde S/ <span>40.00</span></p>
-                <div class="categoryimg">
-                    <img class="catimg" src="assets/images/categorias/1.cervesa.png" alt="">
-                </div>
+                <p class="catpar1">Desde S/ <span class="catprice1">40.00</span></p>
+                <img class="catimg" src="assets/images/categorias/1.cervesa.png" alt="">
                 <div class="cr1"></div>
                 <div class="cr2"></div>
                 <div class="cr3"></div>
@@ -466,13 +435,8 @@
             </section>
         </section>
         <section class="promotion">
-            <div class="promo1">
-                <p>Promociones</p>
-                <div class="edge"></div>
-            </div>
-            <div class="promo2">
-                <p>Ver todas</p>
-            </div>
+            <p class="promo1">Promociones</p>
+            <p class="promo2">Ver todas</p>
         <article class="newBlocke">
             <div class=" newBlock--img1">
                 <img src="assets/images/promociones/1.promo.png" alt="">
@@ -485,14 +449,447 @@
             </div>
         </article>
         </section>
+        <section class="whisky">
+            <h2 class="whiskytitle1">Whisky</h2>
+            <div class="wiskyCards">
+                <div class="whiskyCard1">
+                    <h2 class="whiskyCard1_tittle">Whisky</h2>
+                    <p class="whiskypar">Desde S/ <span>40.00</span></p>
+                    <a class="whiskyAhref" href="#">Ver todos</a>
+                </div>
+                <div class="whiskyCard2">
+                    <article class="card1" id="1">
+                        <div class="card1Prom">
+                            <h3  class="desc">-<span>40</span>%</h3>
+                            <img class="cardHeart" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="card1Img" id="imgs" src="assets/images/mas vendidas/1botella_jack.png" alt="" onclick="window.location.href='productdetail1.html';" >
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail1.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">WHISKY JACK DANIELS OLD N°7 - Botella de 750ml</p>
+                        <div class="soldbuy">
+                            <p class="soldp2">$ <span>70.90</span></p>
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                    <article class="card1" id="2">
+                        <div class="card1Prom2">
+                            <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="cardimg2" id="imgs" src="assets/images/whisky/somethings.png" alt="" onclick="window.location.href='productdetail2.html';">
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail2.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">WHISKY SOMETHING SPECIAL Botella 1 <br> Litro</p>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                    <article class="card1" id="4">
+                        <div class="card1Prom2">
+                            <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="cardimg4" src="assets/images/mas vendidas/4glrerothes.png" alt="" onclick="window.location.href='productdetail4.html';">
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail4.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">WHISKY JACK DANIELS OLD N°7 - Botella de 750ml</p>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="ron">
+            <h2 class="rontitle1">Ron</h2>
+            <div class="ronCards">
+                <div class="ronCard2">
+                    <article class="card1" id="1">
+                        <div class="card1Prom">
+                            <h3  class="desc">-<span>40</span>%</h3>
+                            <img class="cardHeart" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="card1Img" id="imgs" src="assets/images/ron/1granañejo.png" alt="" onclick="window.location.href='productdetail1.html';" >
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail1.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">RON GRAN AÑEJO BARCELÓ Garrafa De 1.75 L</p>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                    <article class="card1" id="2">
+                        <div class="card1Prom2">
+                            <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="cardimg2" id="imgs" src="assets/images/ron/2abueloañejo.png" alt="" onclick="window.location.href='productdetail2.html';">
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail2.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">RON ABUELO AÑEJO ESPECIAL Botella 750 <br>Ml</p>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                    <article class="card1" id="4">
+                        <div class="card1Prom2">
+                            <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="cardimg4" src="assets/images/ron/3medellinañejo.png" alt="" onclick="window.location.href='productdetail4.html';">
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail4.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">RON MEDELLÏN AÑEJO 8 AÑOS Botella 750 <br> Ml</p>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="ronCard1">
+                    <h2 class="ronCard1_tittle">Ron</h2>
+                    <p class="ronpar">Desde S/ <span>40.00</span></p>
+                    <a class="ronAhref" href="#">Ver todos</a>
+                </div>
+            </div>
+        </section>
+        <section class="vinos">
+            <h2 class="vinostitle1">Vinos</h2>
+            <div class="vinosCards">
+                <div class="vinosCard1">
+                    <h2 class="vinosCard1_tittle">Vinos</h2>
+                    <p class="vinospar">Desde S/ <span>40.00</span></p>
+                    <a class="vinosAhref" href="#">Ver todos</a>
+                </div>
+                <div class="vinosCard2">
+                    <article class="card1" id="1">
+                        <div class="card1Prom">
+                            <h3  class="desc">-<span>40</span>%</h3>
+                            <img class="cardHeart" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="card1Img" id="imgs" src="assets/images/vinos/2alamos.png" alt="" onclick="window.location.href='productdetail1.html';" >
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail1.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">VINO ALAMOS SAUVIGNON BLANC Botella de 750Ml</p>
+                        <div class="soldbuy">
+                            <p class="soldp2">$ <span>70.90</span></p>
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                    <article class="card1" id="2">
+                        <div class="card1Prom2">
+                            <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="cardimg2" id="imgs" src="assets/images/vinos/2alamos.png" alt="" onclick="window.location.href='productdetail2.html';">
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail2.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">VINO FRONTERA CEPAS VARIAS Botella <br>de 750Ml</p>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                    <article class="card1" id="4">
+                        <div class="card1Prom2">
+                            <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="cardimg4" src="assets/images/vinos/4casillero.png" alt="" onclick="window.location.href='productdetail4.html';">
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail4.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">VINO CASILLERO DEL DIABLO MERLOT Botella de 750Ml</p>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="cerveza">
+            <h2 class="cervezatitle1">Cerveza</h2>
+            <div class="cervezaCards">
+                <div class="cervezaCard2">
+                    <article class="card1" id="1">
+                        <div class="card1Prom">
+                            <h3  class="desc">-<span>40</span>%</h3>
+                            <img class="cardHeart" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="card1Img" id="imgs" src="assets/images/cerveza/1corona.png" alt="" onclick="window.location.href='productdetail1.html';" >
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail1.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">CORONA EXTRA De 355ML Pack 6</p><br>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                    <article class="card1" id="2">
+                        <div class="card1Prom2">
+                            <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="cardimg2" id="imgs" src="assets/images/cerveza/2asahi.png" alt="" onclick="window.location.href='productdetail2.html';">
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail2.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">Pack 24x Asahi Lager 330cc + Jagermeister</p><br>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                    <article class="card1" id="4">
+                        <div class="card1Prom2">
+                            <img class="cardHeart2" src="assets/icon/fav_iconheart.png" alt="">
+                        </div>
+                        <div class="card1__img">
+                                <img class="cardimg4" src="assets/images/cerveza/3cusqueña.png" alt="" onclick="window.location.href='productdetail4.html';">
+                        </div>
+                        <div class="stars" onclick="window.location.href='productdetail4.html';">
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorvertor1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/icon/Vectorstar.png" alt="">
+                            </div>
+                        </div>
+                        <p class="soldp1">CUSQUEÑA ROJA (x2) 6PACK BOT 310 ML</p><br>
+                        <div class="soldbuy">
+                            <p class="soldbuyP1">$ <span>70.90</span></p>
+                        </div>
+                        <div class="addToCart">
+                            <a class="cartcard" href="">Añadir al carrito</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="cervezaCard1">
+                    <h2 class="cervezaCard1_tittle">Ron</h2>
+                    <p class="cervezapar">Desde S/ <span>40.00</span></p>
+                    <a class="cervezaAhref" href="#">Ver todos</a>
+                </div>
+            </div>
+        </section>
         <section class="marcas">
-            <div class="marcatxt1">
-                <p>Nuestas Marcas</p>
-                <div class="edge3"></div>
-            </div>
-            <div class="marcatxt2">
-                <p>Ver todas</p>
-            </div>
+            <p class="marcastitle1">Nuestras Marcas</p>
+            <p class="marcastitle2">Ver todas</p>
             <article class="marcasimg">
                 <div class="marcasimg1">
                     <img src="assets/images/marcas/1.abuelo.png" alt="">
@@ -515,7 +912,7 @@
             </article>
         </section>
     </main>
-    <footer>
+    <footer>   
     </footer>
     <script src="index.js"></script>
 </body>
